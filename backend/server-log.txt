@@ -1,0 +1,139 @@
+[2025-04-29T14:27:59.493Z] Server starting up
+[2025-04-29T14:27:59.495Z] Environment check
+{
+  "nodeVersion": "v22.15.0",
+  "apiKeyConfigured": true,
+  "apiKeyLength": 164
+}
+[2025-04-29T14:27:59.497Z] Diagnostic Food Analysis Server running on port 3001
+[2025-04-29T14:27:59.497Z] API Key configured: Yes
+[2025-04-29T14:28:10.184Z] Received food analysis request
+[2025-04-29T14:28:10.185Z] Image data received
+{
+  "imageDataLength": 449088
+}
+[2025-04-29T14:28:10.185Z] Sending image to OpenAI for analysis...
+[2025-04-29T14:28:10.186Z] Making API request with details
+{
+  "url": "https://api.openai.com/v1/chat/completions",
+  "method": "POST",
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer sk-pr..."
+  },
+  "model": "gpt-4o"
+}
+[2025-04-29T14:28:10.420Z] API Response received with status: 429
+[2025-04-29T14:28:10.421Z] OpenAI API error:
+{
+  "error": {
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+    "type": "insufficient_quota",
+    "param": null,
+    "code": "insufficient_quota"
+  }
+}
+[2025-04-29T14:28:10.422Z] API quota exceeded, using fallback mock data
+[2025-04-29T14:31:02.683Z] Server starting up
+[2025-04-29T14:31:02.685Z] Environment check
+{
+  "nodeVersion": "v22.15.0",
+  "apiKeyConfigured": true,
+  "apiKeyLength": 164
+}
+[2025-04-29T14:31:02.687Z] Diagnostic Food Analysis Server running on port 3001
+[2025-04-29T14:31:02.687Z] API Key configured: Yes
+[2025-04-29T14:31:09.864Z] Received food analysis request
+[2025-04-29T14:31:09.865Z] Image data received
+{
+  "imageDataLength": 449088
+}
+[2025-04-29T14:31:09.865Z] Sending image to OpenAI for analysis...
+[2025-04-29T14:31:09.865Z] Making API request with details
+{
+  "url": "https://api.openai.com/v1/chat/completions",
+  "method": "POST",
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer sk-pr..."
+  },
+  "model": "gpt-4o"
+}
+[2025-04-29T14:31:11.275Z] API Response received with status: 429
+[2025-04-29T14:31:11.276Z] OpenAI API error:
+{
+  "error": {
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+    "type": "insufficient_quota",
+    "param": null,
+    "code": "insufficient_quota"
+  }
+}
+[2025-04-29T14:31:11.276Z] API quota exceeded, using fallback mock data
+[2025-04-29T14:35:03.448Z] Received food analysis request
+[2025-04-29T14:35:03.449Z] Image data received
+{
+  "imageDataLength": 449088
+}
+[2025-04-29T14:35:03.449Z] Sending image to OpenAI for analysis...
+[2025-04-29T14:35:03.449Z] Making API request with details
+{
+  "url": "https://api.openai.com/v1/chat/completions",
+  "method": "POST",
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer sk-pr..."
+  },
+  "model": "gpt-4o"
+}
+[2025-04-29T14:35:03.708Z] API Response received with status: 429
+[2025-04-29T14:35:03.709Z] OpenAI API error:
+{
+  "error": {
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+    "type": "insufficient_quota",
+    "param": null,
+    "code": "insufficient_quota"
+  }
+}
+[2025-04-29T14:35:03.709Z] API quota exceeded, using fallback mock data
+[2025-04-29T14:35:29.135Z] Server starting up
+[2025-04-29T14:35:29.137Z] Environment check
+{
+  "nodeVersion": "v22.15.0",
+  "apiKeyConfigured": true,
+  "apiKeyLength": 164
+}
+[2025-04-29T14:35:29.139Z] Diagnostic Food Analysis Server running on port 3001
+[2025-04-29T14:35:29.139Z] API Key configured: Yes
+[2025-04-29T14:35:56.549Z] Received food analysis request
+[2025-04-29T14:35:56.550Z] Image data received
+{
+  "imageDataLength": 449088
+}
+[2025-04-29T14:35:56.550Z] Sending image to OpenAI for analysis...
+[2025-04-29T14:35:56.551Z] Making API request with details
+{
+  "url": "https://api.openai.com/v1/chat/completions",
+  "method": "POST",
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer sk-pr..."
+  },
+  "model": "gpt-4o"
+}
+[2025-04-29T14:36:02.271Z] API Response received with status: 200
+[2025-04-29T14:36:02.275Z] Received successful response from OpenAI
+[2025-04-29T14:36:02.276Z] Raw response content:
+{
+  "content": "```json\n{\n  \"description\": \"A gourmet cheeseburger with bacon, lettuce, tomato, cheese, and avocado served with a side of French fries.\",\n  \"calories\": 1200,\n  \"protein\": 50,\n  \"fat\": 80,\n  \"carbs\": 100,\n  \"analysis\": \"This meal is high in calories, fat, and carbs, making it a heavy option. It's rich in protein due to the burger patty and bacon, with additional fats from the cheese, bacon, and avocado. The fries add extra carbs and calories.\"\n}\n```"
+}
+[2025-04-29T14:36:02.277Z] Sending formatted response to client:
+{
+  "description": "A gourmet cheeseburger with bacon, lettuce, tomato, cheese, and avocado served with a side of French fries.",
+  "calories": 1200,
+  "protein": 50,
+  "fat": 80,
+  "carbs": 100,
+  "analysis": "This meal is high in calories, fat, and carbs, making it a heavy option. It's rich in protein due to the burger patty and bacon, with additional fats from the cheese, bacon, and avocado. The fries add extra carbs and calories."
+}
